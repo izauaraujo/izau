@@ -57,16 +57,16 @@ public class Pessoa extends AbstractEntity<Long> {
 	@Column(nullable = true)
 	private String estado;
 
-	@Column(nullable = false)
+	@Column(nullable = true)
 	private String profissao;
 
-	@Column(nullable = false)
+	@Column(nullable = true)
 	private String escolaridade;
 
-	@Column(nullable = false)
+	@Column(nullable = true)
 	private String estadoCivil;
 
-	@Column(nullable = false)
+	@Column(nullable = true)
 	private String nomePai;
 
 	@Column(nullable = true)
